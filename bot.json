@@ -1,0 +1,63 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there! I'm a bot created to assist you! How may I help?",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+      "bot_response": "Start by typing: 'How to learn coding' on Google.",
+      "required_words": ["learn", "code"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We don't offer refunds for free education.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+    {
+      "response_type": "thankyou",
+      "user_input": ["thank", "you", "thanks", "a", "lot"],
+      "bot_response": "You're welcome! I'm here to help you anytime you need it.",
+      "required_words": []
+    },
+    {
+      "response_type": "help",
+      "user_input": ["help", "what", "can", "you", "do", "what", "are", "your", "abilities"],
+      "bot_response": "I can help you with a variety of things, such as answering questions, giving advice, or just chatting. Please let me know how I can assist you today.",
+      "required_words": []
+    },
+    {
+      "response_type": "tell_time",
+      "user_input": ["time", "what", "time", "is", "it"],
+      "bot_response": "The current time is LATIME.",
+      "required_words": []
+    },
+    {
+      "response_type": "tell_time",
+      "user_input": ["date", "what", "date", "is", "it"],
+      "bot_response": "The current date is LADATE.",
+      "required_words": []
+    }
+  
+  ]
